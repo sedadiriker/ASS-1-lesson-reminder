@@ -22,6 +22,7 @@ const LessonCard = () => {
           </div>
         ))}
       </div>
+      <button>Clear List</button>
     </div>
   );
 };
