@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+
+header {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Rubik Vinyl", system-ui;
+  color: white;
+  background: rgb(125, 82, 68);
+  background: linear-gradient(
+    90deg,
+    rgba(125, 82, 68, 1) 0%,
+    rgba(168, 88, 85, 1) 27%,
+    rgba(159, 188, 177, 1) 100%
+  );
+  padding: 1.5rem 0;
+}
