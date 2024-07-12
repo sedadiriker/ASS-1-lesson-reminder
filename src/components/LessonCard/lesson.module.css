@@ -1,0 +1,36 @@
+.container{
+    background-color: rgba(255, 255, 255, 0.306) ;
+    margin: 2rem 1rem;
+    border-radius: 20px;
+    padding: 24px 32px;  
+}
+.title{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin: 1rem 0;
+}
+.lessons{
+    padding: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    & .lessonCard{
+        border: 3px solid yellow;
+        display: flex;
+        & img{
+            width: 85px;
+            height: 80px;
+        }
+        & .bolderText{
+            font-weight: 700;
+            color: #F3A360;
+            font-size: 19.2px;
+        }
+        & .text{
+            color: white;
+        }
+       
+    }
+}

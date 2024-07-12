@@ -1,5 +1,16 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+.App{
+  background: rgb(5, 0, 37);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 0, 37, 1) 6%,
+    rgba(117, 9, 81, 1) 42%,
+    rgba(13, 209, 251, 1) 100%
+  );
+  min-height: 100vh;
 }
